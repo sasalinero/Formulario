@@ -1,0 +1,77 @@
+
+
+
+html{
+    background-color: goldenrod;
+}
+button{
+    background-color: green;
+    color: white;
+    margin: 10px;
+    width: 140px;
+    height: 40px;
+   
+}
+*{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input:valid {
+    border: 2px solid green;
+}
+:placeholder-shown{
+    padding: 10px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-size: 50px;
+    text-decoration: underline wavy rgb(255, 0, 183);
+    color: green;
+    font-weight: bold;
+}
+form{
+    display: grid;
+    grid-template-rows: auto;
+    margin: 80px;
+    justify-content: center;
+   justify-items: center;
+   height: 80vh;
+      
+    }
+label{
+    font-size: 30px;
+}
+    input{
+        margin-bottom: 10px;
+    }
+  input:checked{
+      margin: 0;
+  } 
+  
+@media all and (min-width:750px){
+    html{
+        background-color: blue;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+                      
+        }
+}
+@media all and (min-width:1200px){
+    html{
+        background-color: blueviolet;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+                      
+        }
+}
+
